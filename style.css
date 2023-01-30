@@ -1,0 +1,39 @@
+html {
+    background-color: rgb(245, 245, 6);
+    color: rgb(202, 11, 49);
+}
+
+body {
+    background-color: aqua;
+    font-family: 'beer money', sans-serif;
+    /* sans-serif - стандартный шрифт без засечек */
+}
+
+h1 {
+    color: navy;
+    background-color: rgb(236, 232, 232);
+    text-align: center;
+}
+
+.big_text {
+    font-size: 33px;
+    color: rgb(245, 6, 209);
+    text-align: right;
+    font-family: "Times New Roman", Times, serif;
+}
+
+/* https://ffont.ru/fonts - сайт с бесплатными шрифтами */
+/* Ctrl + D - выделить несколько одинаковых символов */
+
+@font-face {
+	font-family: 'beer money';
+	src: url('fonts/beer_money.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/beer_money.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/beer_money.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/beer_money.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/beer_money.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/beer_money.svg#beer_money') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+/* Файл beer_money.css можно потом удалить */
+/* клавишами shift+alt+f или ctrl+shift+I автоматически выравнивать код в VSCode */
